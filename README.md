@@ -18,7 +18,7 @@ The models were evaluated on a locally run offsite test set of 300 images as wel
 THe evaluation of performance was done based on accuracy, precision, recall, F1-score, and kappa.
 
 ## Transfer Learning
-Transfer learning was performed to two pretrained models, EfficientNet and ResNet18,
+Transfer learning was performed to two pretrained models, EfficientNet and ResNet18,
 that have been trained with large-scale datasets ADAM,
 REFUGE2, and APTOS.
 
@@ -36,7 +36,7 @@ the dataset, respectively. Due to this strong class imbalance, the model is like
 cases of glaucoma and AMD. To see how the balancing of class frequencies affects the performance, two different loss
 functions were implemented to replace the originally used Binary Cross-Entropy, focall loss and class-balanced loss.
 
-In this project, the class importance weights and the focusing parameter were set to α = [0.4, 0.7, 0.75], γ = 2, respectively. 
+In this project, the class importance weights and the focusing parameter were set to α = [0.4, 0.7, 0.75], γ = 2, respectively. 
 The values for α come from the class frequencies: the higher frequency, the lower importance.
 The chosen weights for CB loss were 0.59, 4, and 4.88 for DR, G, and AMD, respectively.
 
