@@ -3,13 +3,13 @@ Model performance was optimized by fine-tuning pre-trained CNN backbones. Classi
 
 
 # INTRODUCTION
-Medical datasets are often small as obtaining images and annotating them is time consuming and difficult. To address
-this limitation, transfer learning is a technique where a pretrained model provides knowledge that can be leveraged when
-fine-tuning a model with a smaller dataset. Two different pretrained backbones, EfficientNet and ResNet-18 are fine-tuned
+Medical datasets are often small as obtaining images and annotating them is time consuming and difficult. To address
+this limitation, transfer learning is a technique where a pretrained model provides knowledge that can be leveraged when
+fine-tuning a model with a smaller dataset. Two different pretrained backbones, EfficientNet and ResNet-18 are fine-tuned
 for multi-label retinal image classification, focusing on three
 major conditions: Diabetic Retinopathy (DR), Glaucoma (G),
-and Age-related Macular Degeneration (AMD). The performance metrics used to evaluate the model performances include, but are not limited to, precision, recall, and F1-score.
-The project aims to improve multi-label retinal image classification by fine-tuning models with different techniques.
+and Age-related Macular Degeneration (AMD). The performance metrics used to evaluate the model performances include, but are not limited to, precision, recall, and F1-score.
+The project aims to improve multi-label retinal image classification by fine-tuning models with different techniques.
 
 
 # Methods
