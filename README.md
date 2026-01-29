@@ -24,7 +24,7 @@ REFUGE2, and APTOS.
 
 In this project, transfer learning was conducted with three
 different setups to see how fine-tuning affected the performance of the resulting models. First, the pretrained backbones from 
-EfficientNet and ResNet18 were used directly on the ODIR test set without any fine-tuning to establish a baseline. The second 
+EfficientNet and ResNet18 were used directly on the ODIR test set without any fine-tuning to establish a baseline. The second 
 transfer learning was done with a frozen backbone, only allowing the fine-tuning of the classifier with the ODIR training set. 
 Here, a learning rate of 1e−3 was used along with a batch size of 32 and number of epoch being 20 for both backbones. 
 Finally, full fine-tuning updated both the pretrained backbone and the classifier on ODIR training set.
